@@ -1,0 +1,126 @@
+:root {
+    /* main color */
+    --primary: #123250;
+    --secondary: #9eb8dd;
+    --background: #FFFFFF;
+
+    /* system colors */
+    --success: #28a745;
+    --error: #DF435E;
+    --warning: #ffbc00;
+    --info: #17a2b8;
+
+    /* scrollbar */
+    --scrollbar-thumb-color: #c1c1c1;
+    --dark--scrollbar-thumb-color: rgba(193, 193, 193, 0.5);
+    --scrollbar-width: 14px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.v-tab {
+    text-transform: none !important;
+}
+
+.v-btn.v-size--default {
+    padding: 0 24px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 21px !important;
+    letter-spacing: 0.1px !important;
+}
+
+.v-btn.v-size--large {
+    padding: 0 28px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 21px !important;
+    letter-spacing: 0.1px !important;
+}
+
+.v-btn.v-size--small {
+    padding: 0 14px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    line-height: 18px !important;
+    letter-spacing: 0.5px !important;
+}
+
+.v-btn.v-btn--fab.v-size--default {
+    padding: 0 !important;
+}
+
+.v-btn.v-btn--fab.v-size--large {
+    padding: 0 !important;
+}
+
+.v-btn.v-btn--fab.v-size--small {
+    padding: 0 !important;
+}
+
+.v-btn.v-btn--icon.v-size--default {
+    padding: 0 !important;
+}
+
+.v-btn.v-btn--icon.v-size--large {
+    padding: 0 !important;
+}
+
+.v-btn.v-btn--icon.v-size--small {
+    padding: 0 !important;
+}
+
+.v-btn:not(.bottom-navigation__btn) i {
+    font-size: 20px !important;
+}
+
+/* list item */
+.v-list-item {
+    padding: 0 12px !important;
+}
+
+.v-input--dense>.v-input__control>.v-input__slot {
+    padding: 0 12px !important;
+}
+
+.v-input__prepend-inner {
+    margin-right: 8px !important;
+}
+
+/* menu */
+.v-menu__content {
+    box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04) !important;
+}
+
+abbr {
+    text-decoration: none !important;
+}
+
+.v-slide-group__next--disabled,
+.v-slide-group__prev--disabled {
+    display: none !important;
+}
+
+.v-application--wrap {
+    min-height: 100vh;
+}
+
+@media (min-width: 1400px) {
+    .mx-80 {
+        max-width: 1200px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .mx-80 {
+        max-width: 100% !important;
+    }
+}
+
+.mx-80 {
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+}
