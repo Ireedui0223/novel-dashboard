@@ -93,7 +93,7 @@ export default {
 
       await this.$axios({
         method: "post",
-        url: "http://localhost:8080/upload",
+        url: "https://graphql.novelinvestment.mn/upload",
         data: formData,
         headers: {
           authorization,

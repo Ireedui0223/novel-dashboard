@@ -48,8 +48,8 @@ export default {
     authenticationType: "",
     clientConfigs: {
       default: {
-        httpEndpoint: "http://localhost:8080",
-        // httpEndpoint: "https://graphql.novelinvestment.mn/",
+        // httpEndpoint: "http://localhost:8080",
+        httpEndpoint: "https://graphql.novelinvestment.mn/",
         tokenName: "token",
         authenticationType: "",
       },
