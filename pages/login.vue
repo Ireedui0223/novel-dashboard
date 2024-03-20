@@ -1,5 +1,5 @@
 <template>
-  <div style="height: 100%">
+  <div style="height: 100vh">
     <v-img
       :src="require('@/assets/images/bg-3.jpg')"
       height="100%"
